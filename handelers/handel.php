@@ -52,7 +52,7 @@ if (postMethod()){
         header('location:../profile.php');
     }else{
             sessionstore("errors", $errors);
-            header('location:../register.php');        }
+            header('location:../index.html');        }
     
     }else { 
 
