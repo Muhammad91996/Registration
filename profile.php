@@ -2,7 +2,7 @@
 <?php include 'core/session.php'; ?>
 <?php
     if(!isset($_SESSION['user'])){
-        header("location:register.php");
+        header("location:index.html");
         die();
     } ?>
 
